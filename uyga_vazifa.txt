@@ -1,1 +1,268 @@
-jjjj
+Microsoft Windows [Version 10.0.19045.6456]
+(c) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+C:\Users\User>docker version
+Client:
+ Version:           29.1.3
+ API version:       1.52
+ Go version:        go1.25.5
+ Git commit:        f52814d
+ Built:             Fri Dec 12 14:51:52 2025
+ OS/Arch:           windows/amd64
+ Context:           desktop-linux
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+
+C:\Users\User>Client: Docker Engine
+"Client:" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User> Version: 27.x
+"Version:" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>Server: Docker Engine
+"Server:" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User> Version: 27.x
+"Version:" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>
+C:\Users\User>docker search postgres
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+
+C:\Users\User>NAME        DESCRIPTION                         STARS
+"NAME" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>postgres    PostgreSQL database                 13000+
+"postgres" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>
+C:\Users\User>docker pull postgres
+Using default tag: latest
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+
+C:\Users\User>Status: Downloaded newer image for postgres:latest
+"Status:" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>
+C:\Users\User>docker run -it node
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+
+C:\Users\User>Welcome to Node.js v20.x
+"Welcome" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>>
+Ошибка в синтаксисе команды.
+
+C:\Users\User>
+C:\Users\User>docker run -it node:alpine
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+
+C:\Users\User>Welcome to Node.js v20.x
+"Welcome" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>>
+Ошибка в синтаксисе команды.
+
+C:\Users\User>
+C:\Users\User>docker run -d node:alpine
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+
+C:\Users\User>c8b3f0a9d1e8
+"c8b3f0a9d1e8" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>
+C:\Users\User>docker ps
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+
+C:\Users\User>CONTAINER ID   IMAGE        STATUS
+"CONTAINER" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>c8b3f0a9d1e8   node:alpine  Up 5 seconds
+"c8b3f0a9d1e8" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>
+C:\Users\User>docker ps -a
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+
+C:\Users\User>CONTAINER ID   IMAGE        STATUS
+"CONTAINER" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>c8b3f0a9d1e8   node:alpine  Up
+"c8b3f0a9d1e8" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>91a2b3c4d5e6   node         Exited
+"91a2b3c4d5e6" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>
+C:\Users\User>docker stop c8b3f0a9d1e8
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+
+C:\Users\User>c8b3f0a9d1e8
+"c8b3f0a9d1e8" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>
+C:\Users\User>docker rm c8b3f0a9d1e8
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+
+C:\Users\User>c8b3f0a9d1e8
+"c8b3f0a9d1e8" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>
+C:\Users\User>docker container prune
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] Deleted Containers
+
+C:\Users\User>Total reclaimed space: 25MB
+"Total" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>
+C:\Users\User>docker image ls
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+
+C:\Users\User>REPOSITORY   TAG     IMAGE ID     SIZE
+"REPOSITORY" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>postgres     latest  a1b2c3d4     430MB
+"postgres" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>node         alpine  f6e5d4c3     120MB
+node:internal/modules/cjs/loader:1404
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\User\alpine'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1401:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)
+    at Function._load (node:internal/modules/cjs/loader:1211:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.17.0
+
+C:\Users\User>nginx        latest  b3c4d5e6     190MB
+"nginx" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>
+C:\Users\User>docker rmi f6e5d4c3
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+
+C:\Users\User>Deleted: sha256:f6e5d4c3
+"Deleted:" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>
+C:\Users\User>docker run -it busybox
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+
+C:\Users\User>/ # hostname -i
+"/" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>172.17.0.2
+"172.17.0.2" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>/ # ping 8.8.8.8
+"/" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>64 bytes from 8.8.8.8
+"64" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>/ # exit
+"/" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>
+C:\Users\User>docker run -it --rm busybox
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+
+C:\Users\User>/ #
+"/" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>
+C:\Users\User>docker run -d nginx
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+
+C:\Users\User>2f34322a4d
+"2f34322a4d" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>
+C:\Users\User>docker container inspect 2f34322a4d
+[]
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+
+C:\Users\User>"Status": "running"
+""Status":" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>
+C:\Users\User>docker kill 2f34322a4d
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+
+C:\Users\User>2f34322a4d
+"2f34322a4d" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>
+C:\Users\User>docker run -d -p 8080:80 nginx
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+
+C:\Users\User>a7b8c9d1e2
+"a7b8c9d1e2" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>http://localhost:8080
+"http:" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>
+C:\Users\User>docker run -d --name test_nginx -p 80:80 nginx
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+
+C:\Users\User>d4e5f6a7b8
+"d4e5f6a7b8" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>
+C:\Users\User>docker run -d -p 8085:80 -v ${PWD}:/usr/share/nginx/html nginx
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+
+C:\Users\User>e9f8a7b6c5
+"e9f8a7b6c5" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>http://localhost:8085
+"http:" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+
+C:\Users\User>
